@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Gallery — Mohammed Nabeel</title>
+  <meta name="description"
+    content="Visual gallery and highlights of Mohammed Nabeel: student leadership at Success Academy, ventures like BINTH.IN, and campus engineering projects." />
+
+  <!-- OPEN GRAPH / SOCIAL META -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gallery — Mohammed Nabeel" />
+  <meta property="og:description"
+    content="Visual gallery and project highlights across leadership, ventures, and technology." />
+  <meta property="og:image" content="./profile.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gallery — Mohammed Nabeel" />
+  <meta name="twitter:description" content="Visual gallery and project highlights." />
+  <meta name="twitter:image" content="./profile.png" />
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230e2038'/><text x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Montserrat, sans-serif' font-size='42' font-weight='800' fill='%23d98e2b'>MN</text></svg>" />
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- CENTRAL STYLESHEET -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header role="banner">
+    <nav aria-label="Main Navigation">
+      <div class="container nav-inner">
+        <a href="index.html" class="logo" aria-label="Mohammed Nabeel Home">
+          MOHAMMED <span>NABEEL</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false"
+          aria-controls="navLinks">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="experience.html">Experience</a>
+          <a href="ventures.html">Ventures</a>
+          <a href="skills.html">Skills</a>
+          <a href="journey.html">Journey</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-header" aria-label="Gallery Page Introduction">
+      <div class="container">
+        <div class="tag">Visual Showcase</div>
+        <h1>Moments, Milestones & Highlights.</h1>
+        <p class="page-header-sub">
+          A visual record of leadership initiatives, venture launches, software engineering projects, and campus endeavors.
+        </p>
+
+        <!-- CATEGORY FILTERS -->
+        <div class="gallery-filters" role="group" aria-label="Filter gallery items">
+          <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">
+            <i class="fa-solid fa-border-all"></i> All Highlights
+          </button>
+          <button class="filter-btn" type="button" data-filter="leadership" aria-pressed="false">
+            <i class="fa-solid fa-users"></i> Leadership & Academy
+          </button>
+          <button class="filter-btn" type="button" data-filter="ventures" aria-pressed="false">
+            <i class="fa-solid fa-rocket"></i> Ventures & Brands
+          </button>
+          <button class="filter-btn" type="button" data-filter="technology" aria-pressed="false">
+            <i class="fa-solid fa-code"></i> Tech & Engineering
+          </button>
+          <button class="filter-btn" type="button" data-filter="campus" aria-pressed="false">
+            <i class="fa-solid fa-graduation-cap"></i> Campus Life
+          </button>
+        </div>
+        <p class="sr-only" id="galleryStatus" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- GALLERY GRID -->
+    <section style="padding-top: 10px;">
+      <div class="container">
+
+        <div class="gallery-grid">
+
+          <!-- ITEM 1: Official Portrait -->
+          <button class="gallery-item" type="button" data-category="leadership" aria-label="Open Executive Profile preview">
+            <div class="gallery-media">
+              <img src="./profile.png" alt="Mohammed Nabeel Official Portrait" loading="lazy" decoding="async" width="600" height="760" sizes="(max-width: 950px) 92vw, 400px" />
+              <div class="gallery-zoom-badge">
+                <i class="fa-solid fa-expand"></i>
+              </div>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-item-tag">Portrait & Identity</span>
+              <h3 class="gallery-item-title">Executive Profile</h3>
+              <p class="gallery-item-desc">
+                Final-year Computer Science student, founder of BINTH.IN, and Growth & Development Officer at Success Academy.
+              </p>
+            </div>
+          </button>
+
+          <!-- ITEM 2: NextGen Student Development Program -->
+          <button class="gallery-item" type="button" data-category="leadership" aria-label="Open NextGen 30-Week Program preview">
+            <div class="gallery-media">
+              <div class="gallery-media-placeholder">
+                <i class="fa-solid fa-award"></i>
+                <span>NextGen Program</span>
+              </div>
+              <div class="gallery-zoom-badge">
+                <i class="fa-solid fa-expand"></i>
+              </div>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-item-tag">Student Leadership</span>
+              <h3 class="gallery-item-title">NextGen 30-Week Program</h3>
+              <p class="gallery-item-desc">
+                Designed and launched in July 2026 at Success Academy, mentoring young students in communication, career awareness, and confidence.
+              </p>
+            </div>
+          </button>
+
+          <!-- ITEM 3: BINTH.IN Kidswear Brand -->
+          <button class="gallery-item" type="button" data-category="ventures" aria-label="Open BINTH.IN Brand Identity preview">
+            <div class="gallery-media">
+              <div class="gallery-media-placeholder" style="background: linear-gradient(135deg, #f7efe1 0%, #ecd8bb 100%);">
+                <i class="fa-solid fa-shirt"></i>
+                <span>BINTH.IN Kidswear</span>
+              </div>
+              <div class="gallery-zoom-badge">
+                <i class="fa-solid fa-expand"></i>
+              </div>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-item-tag">Venture Launch</span>
+              <h3 class="gallery-item-title">BINTH.IN Brand Identity</h3>
+              <p class="gallery-item-desc">
+                E-commerce fashion venture launched in March 2026 specializing in premium basics and considered clothing for girls ages 6–15.
+              </p>
+            </div>
+          </button>
+
+          <!-- ITEM 4: Academy Administrative Platform -->
+          <button class="gallery-item" type="button" data-category="technology" aria-label="Open Academic Ops Platform preview">
+            <div class="gallery-media">
+              <div class="gallery-media-placeholder" style="background: linear-gradient(135deg, #ece5d8 0%, #dacbb5 100%);">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Internal Platform</span>
+              </div>
+              <div class="gallery-zoom-badge">
+                <i class="fa-solid fa-expand"></i>
+              </div>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-item-tag">Internal Software</span>
+              <h3 class="gallery-item-title">Academic Ops Platform</h3>
+              <p class="gallery-item-desc">
+                Engineering a centralized web application to manage student admissions, attendance, parent updates, and academic records.
+              </p>
+            </div>
+          </button>
+
+          <!-- ITEM 5: Personal Operating System -->
+          <button class="gallery-item" type="button" data-category="technology" aria-label="Open Personal Operating System preview">
+            <div class="gallery-media">
+              <div class="gallery-media-placeholder" style="background: linear-gradient(135deg, #1b3558 0%, #0e2038 100%); color: #d98e2b;">
+                <i class="fa-solid fa-layer-group"></i>
+                <span style="color: #fff;">Personal OS</span>
+              </div>
+              <div class="gallery-zoom-badge">
+                <i class="fa-solid fa-expand"></i>
+              </div>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-item-tag">Web Application</span>
+              <h3 class="gallery-item-title">Personal Operating System</h3>
+              <p class="gallery-item-desc">
+                Modular productivity web app with Prayer, Study, and Work logging powered by Vanilla JavaScript, Firebase authentication, and Firestore.
+              </p>
+            </div>
+          </button>
+
+          <!-- ITEM 6: CE Cherthala Engineering Journey -->
+          <button class="gallery-item" type="button" data-category="campus" aria-label="Open B.Tech Computer Science preview">
+            <div class="gallery-media">
+              <div class="gallery-media-placeholder">
+                <i class="fa-solid fa-university"></i>
+                <span>CE Cherthala</span>
+              </div>
+              <div class="gallery-zoom-badge">
+                <i class="fa-solid fa-expand"></i>
+              </div>
+            </div>
+            <div class="gallery-content">
+              <span class="gallery-item-tag">Engineering Studies</span>
+              <h3 class="gallery-item-title">B.Tech Computer Science</h3>
+              <p class="gallery-item-desc">
+                Four years of technical training, peer hackathons, and systems foundations at College of Engineering Cherthala (2023–2027).
+              </p>
+            </div>
+          </button>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="lightbox" id="lightboxModal" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" aria-describedby="lightboxDesc" hidden>
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="lightbox-img-wrapper">
+          <img src="" alt="" class="lightbox-img" id="lightboxImg" />
+          <div class="lightbox-placeholder-card" id="lightboxPlaceholder" hidden>
+            <i class="fa-solid fa-image" aria-hidden="true"></i>
+            <span>Visual preview coming soon</span>
+          </div>
+        </div>
+        <div class="lightbox-caption">
+          <strong id="lightboxTitle"></strong>
+          <p id="lightboxDesc"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE BOTTOM NAVIGATION -->
+    <section style="padding: 0 0 80px 0;">
+      <div class="container">
+        <div class="page-nav-bar">
+          <a href="journey.html" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Previous: Journey
+          </a>
+          <a href="contact.html" class="btn btn-primary">
+            Next: Contact <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year">2026</span> Mohammed Nabeel — Building in tech, business, and systems.
+    </div>
+  </footer>
+
+  <a href="contact.html" class="floating-cta" id="floatingCta" aria-label="Contact Mohammed Nabeel">
+    <i class="fa-solid fa-paper-plane"></i> <span>Let's Connect</span>
+  </a>
+  <script src="script.js"></script>
+</body>
+
+</html>
