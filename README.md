@@ -1,11 +1,14 @@
 # Mohammed Nabeel — Personal Portfolio Website
 
-[![Portfolio Status](https://img.shields.io/badge/Status-Live%20%26%20Active-brightgreen.svg)](#)
+[![Netlify Status](https://img.shields.io/badge/Netlify-Live%20Site-00C7B7?logo=netlify&logoColor=white)](https://mohdnabeel.netlify.app/)
+[![Portfolio Status](https://img.shields.io/badge/Status-Live%20%26%20Active-brightgreen.svg)](https://mohdnabeel.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-Mohdnabeelsid-181717?logo=github)](https://github.com/Mohdnabeelsid)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mohmdnabeel195-0A66C2?logo=linkedin)](https://www.linkedin.com/in/mohmdnabeel195)
 
 > *Building at the intersection of technology, business, and systems.*
+
+🌐 **Live Demo:** [https://mohdnabeel.netlify.app/](https://mohdnabeel.netlify.app/)
 
 A modern, multi-page personal portfolio website designed and developed for **Mohammed Nabeel** — Computer Science & Engineering student at College of Engineering Cherthala (2023–2027), Founder & Technical Lead at [BINTH.IN](https://binth.in), and Growth & Development Officer at Success Academy.
 
