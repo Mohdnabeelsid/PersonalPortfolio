@@ -67,8 +67,8 @@ All you need is a modern web browser (Google Chrome, Mozilla Firefox, Microsoft 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Mohdnabeelsid/My-Personal-Portfolio-Website.git
-   cd My-Personal-Portfolio-Website
+   git clone https://github.com/Mohdnabeelsid/PersonalPortfolio.git
+   cd PersonalPortfolio
    ```
 
 2. **Open the project:**
@@ -91,3 +91,4 @@ All you need is a modern web browser (Google Chrome, Mozilla Firefox, Microsoft 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) — feel free to explore and reference.
+
